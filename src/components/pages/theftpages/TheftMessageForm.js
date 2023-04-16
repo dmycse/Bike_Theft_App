@@ -3,7 +3,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchAddTheftCase, fetchNewTheftCase, bikeType, bikeColor } from 'components/store/theftSlice';
-import { fetchEmployeeList } from '../../store/employeeSlice';
+import { fetchEmployeeList } from 'components/store/employeeSlice';
 
 import { Formik, Form } from 'formik';
 import FormControl from 'components/pages/forms/FormControl';

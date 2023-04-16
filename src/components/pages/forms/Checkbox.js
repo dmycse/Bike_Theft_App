@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Field, ErrorMessage } from 'formik';
-import ErrorText from './ErrorText';
+import ErrorText from 'components/pages/forms/ErrorText';
 
 function Checkbox({label, name, ...rest}) {
 	return (
