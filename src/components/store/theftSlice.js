@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import { clientId } from '../pages/authorization/clientId';
-import { authHeader } from '../pages/authorization/authHeader';
+import { clientId } from 'components/pages/authorization/clientId';
+import { authHeader } from 'components/pages/authorization/authHeader';
 
 const API_URL = 'https://sf-final-project-be.herokuapp.com/api/cases/'; 
 const API_URL_PUBLIC = 'https://sf-final-project-be.herokuapp.com/api/public/report';

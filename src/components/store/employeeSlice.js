@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import { authHeader } from '../pages/authorization/authHeader';
+import { authHeader } from 'components/pages/authorization/authHeader';
 
 
 const API_URL = 'https://sf-final-project-be.herokuapp.com/api/officers'; 
