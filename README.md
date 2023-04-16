@@ -1,4 +1,4 @@
-# SF Final Project
+# Bike Theft App
 
 ## Постановка задачи
 
